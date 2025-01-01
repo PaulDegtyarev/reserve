@@ -1,0 +1,5 @@
+CREATE TABLE reserve.areas
+(
+    id   BIGSERIAL PRIMARY KEY,
+    name VARCHAR UNIQUE NOT NULL
+);

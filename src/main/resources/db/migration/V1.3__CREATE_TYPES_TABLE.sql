@@ -1,0 +1,5 @@
+CREATE TABLE reserve.types
+(
+    id   BIGSERIAL PRIMARY KEY,
+    name VARCHAR UNIQUE NOT NULL
+);
